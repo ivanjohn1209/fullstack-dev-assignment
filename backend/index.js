@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 require('dotenv').config();
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['http://localhost:3000', 'https://visionary-squirrel-7b9fd7.netlify.app'];
 
 const corsOptions = {
     origin: (origin, callback) => {
