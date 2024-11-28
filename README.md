@@ -47,41 +47,42 @@ This is a full-stack web application for looking up domain information using the
 ### Steps
 1. Clone the repository:
    
-bash
+```bash
    git clone https://github.com/ivanjohn1209/fullstack-dev-assignment.git
    cd fullstack-dev-assignment
+```
 
 2. Set up the backend:
 
-bash
+```bash
     cd backend
     npm install
+```
 
 3. Set up the frontend:
 
-bash
+```bash
     cd ../frontend
     npm install
-
+```
 ## Environment Variables
 Create a .env file in the backend directory and add the following variables:
 
-env
-    PORT=5000
-    WHOIS_API_KEY=your_api_key_here
+    - PORT=5000
+    - WHOIS_API_KEY=your_api_key_here
 
 ## Run Backend
 
 1. Navigate to the backend folder:
 
-bash
+```bash
     cd backend
-
+```
 2. Start the server:
 
-bash
+```bash
     npm start
-
+```
 The backend server will run at http://localhost:5000.
 
 
@@ -89,14 +90,14 @@ The backend server will run at http://localhost:5000.
 
 1. Navigate to the frontend folder:
 
-bash
+```bash
     cd frontend
-
+```
 2. Start the server:
 
-bash
+```bash
     npm start
-
+```
 The frontend server will run at http://localhost:3000.
 
 
