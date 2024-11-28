@@ -1,0 +1,28 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.lookup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table th, .info-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.error-alert {
+  color: red;
+  margin-top: 10px;
+}
